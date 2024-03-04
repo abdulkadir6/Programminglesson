@@ -9,4 +9,4 @@ for i in veriler:
     toplam += int(i[4])
     ogrsayi +=1
 print(toplam/ogrsayi)
-db.close() 
+db.close() # Veritabanını kapatmak çok önemli!!
