@@ -1,4 +1,4 @@
-# İstenilen sayıya kadar olan sayıları topla
+# 1'den istenilen sayıya kadar olan sayıları toplayan fonksiyon
 # def toplama(sayi):
 #     toplam=0
 #     for i in range(1,sayi+1):
@@ -29,7 +29,7 @@
 #     return fakto
 # print(fakto(sayi))
 
-
+# # Girilen sayıya kadar mükemmel sayıları yazdıran program
 # sayi=int(input("Sayı giriniz. \n"))
 # for ms in range(1,sayi):
 #     toplam=0
@@ -39,15 +39,16 @@
 #     if toplam==ms:
 #         print("Mükemmel Sayı",ms)
 
-def ms(sayi):
-    toplam=0
-    for i in range(1,sayi):
-        if (sayi%i==0):
-            toplam=toplam+i
-    if toplam==sayi:
-        print("Mükemmel sayi",sayi)
+# # Girilen sayıya kadar mükemmel sayıları yazdıran fonksiyon
+# def ms(sayi):
+#     toplam=0
+#     for i in range(1,sayi):
+#         if (sayi%i==0):
+#             toplam=toplam+i
+#     if toplam==sayi:
+#         print("Mükemmel sayi",sayi)
     
-sayi=int(input("Sayı giriniz. \n"))
+# sayi=int(input("Sayı giriniz. \n"))
 
-for k in range(1,sayi+1):
-    ms(k)
+# for k in range(1,sayi+1):
+#     ms(k)
